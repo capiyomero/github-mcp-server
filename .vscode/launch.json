@@ -11,7 +11,9 @@
             "mode": "auto",
             "cwd": "${workspaceFolder}",
             "program": "cmd/github-mcp-server/main.go",
-            "args": ["stdio"],
+            "args": [
+                "stdio"
+            ],
             "console": "integratedTerminal",
         },
         {
@@ -21,7 +23,10 @@
             "mode": "auto",
             "cwd": "${workspaceFolder}",
             "program": "cmd/github-mcp-server/main.go",
-            "args": ["stdio", "--read-only"],
+            "args": [
+                "stdio",
+                "--read-only"
+            ],
             "console": "integratedTerminal",
         }
     ]
